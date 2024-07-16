@@ -1,0 +1,22 @@
+{
+    "name": "vendor-name/lesagitacteurs",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Joel Gomes",
+            "email": "joelgomes.wd@gmail.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "ext-intl": "*",
+        "ext-pdo": "*",
+        "ext-mbstring": "*",
+        "ext-http": "*",
+        "dompdf/dompdf": "^2.0"
+    }
+}
